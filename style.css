@@ -598,9 +598,9 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-background-image:
-  linear-gradient(rgba(var(--accent-secondary-rgb), 0.12) 1px, transparent 1px),
-  linear-gradient(90deg, rgba(var(--accent-secondary-rgb), 0.12) 1px, transparent 1px);
+  background-image:
+    linear-gradient(rgba(var(--accent-rgb), 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(var(--accent-secondary-rgb), 0.12) 1px, transparent 1px);
   background-size: 60px 60px;
   animation:
     gridMoveVertical 30s linear infinite,
